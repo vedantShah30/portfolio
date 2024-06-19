@@ -1,0 +1,232 @@
+body{
+    background-color: #2AAED8;
+    margin: 0;
+}
+
+.name{
+    color: white;
+    font-family: 'TT Commons', sans-serif;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    text-shadow: -2px 2px 8px #ffffff;
+}
+
+.year{
+    color: white;
+    font-family: 'TT Commons', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 110px;
+}
+
+.landing{
+    display: inline-flex;
+}
+
+.myPhoto{
+    margin-left: 300px;
+}
+
+.heading{
+    color: white;
+    font-family: 'TT Commons', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    text-shadow: -2px 2px 8px #ffffff;
+}
+
+.content{
+    color: white;
+    font-family: 'TT Commons', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    line-height: 70px;
+    margin-right: 100px;
+}
+
+.rounded-button {
+    background-color: #D8542A; 
+    color: white;
+    padding: 20px 40px; 
+    border: none; 
+    border-radius: 50px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    outline: none; 
+    transition: background-color 0.3s ease; 
+    text-decoration: none;
+    text-align: center;
+}
+
+.rounded-button:hover {
+    background-color: #373737; 
+}
+
+.companies{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.button-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.club{
+    width: 100px;
+    height: 100px;
+}
+
+.clubs{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    margin-top: 350px;
+    font-family: 'TT Commons', sans-serif;
+}
+
+.element{
+    width: 250px;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.project{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro{
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.projectContent{
+    font-size: 20px;
+    color: white;
+    font-family: 'TT Commons', sans-serif;
+}
+
+.projects{
+    margin-bottom: 500px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the section takes the full height of the viewport */
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #333333;
+    width: 100px;
+    vertical-align: top;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+.custom-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 25px 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin-left: 125px;
+    margin-top: 200px;
+}
+
+.custom-button:hover {
+    background-color: #f0f0f0;
+}
+
+.button-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    color: #333333;
+    margin-right: 10px;
+}
+
+.button-icon {
+    font-family: 'TT Commons', sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+html {
+    scroll-behavior: smooth;
+}
